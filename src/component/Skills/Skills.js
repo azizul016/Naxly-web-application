@@ -1,14 +1,15 @@
 import React from "react";
+import Tilt from "react-tilt";
 import shape4 from "../../images/shape/shape-4.png";
 import decor1 from "../../images/icons/decor-1.png";
-import illastration1 from "../../images/resource/illastration-1.png"
+import illastration1 from "../../images/resource/illastration-1.png";
 
 function Skills() {
   return (
     <section className='skills-section'>
       <div
         className='pattern-layer'
-        style={{backgroundImage: `url(${shape4})`}}
+        style={{ backgroundImage: `url(${shape4})` }}
       ></div>
       <div className='auto-container'>
         <div className='row clearfix'>
@@ -18,9 +19,14 @@ function Skills() {
               data-wow-delay='200ms'
               data-wow-duration='1500ms'
             >
-              <figure className='image js-tilt'>
-                  {/* script.js file 554  */}
-                <img src={illastration1} alt='' />
+              <figure>
+                <Tilt
+                  className='Tilt'
+                  options={{ max: 10 }}
+                  style={{ height: "100%", width: "100%" }}
+                >
+                  <img src={illastration1} alt='' />
+                </Tilt>
               </figure>
             </div>
           </div>
@@ -32,7 +38,7 @@ function Skills() {
                   <h2>We keep our self updated with latest trends</h2>
                   <div
                     className='decor'
-                    style={{backgroundImage: `url(${decor1})`}}
+                    style={{ backgroundImage: `url(${decor1})` }}
                   ></div>
                 </div>
                 <div className='text'>

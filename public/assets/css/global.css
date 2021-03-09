@@ -7,10 +7,10 @@
  ***/
 
 * {
-	margin: 0px;
-	padding: 0px;
-	border: none;
-	outline: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
 }
 
 /*** 
@@ -22,48 +22,48 @@
  ***/
 
 body {
-	font-size: 16px;
-	color: #666666;
-	line-height: 26px;
-	font-weight: 500;
-	background: #ffffff;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  line-height: 26px;
+  font-weight: 500;
+  background: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Muli", sans-serif;
 }
 
-  @media (min-width:1200px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1170px;
     padding: 0px 15px;
   }
 }
 
-.large-container{
+.large-container {
   max-width: 1690px;
   padding: 0px 15px;
   margin: 0 auto;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0px;
 }
 
-.auto-container{
-  position:static;
-  max-width:1200px;
-  padding:0px 15px;
-  margin:0 auto;
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
 
-.small-container{
-  max-width:680px;
-  margin:0 auto;
+.small-container {
+  max-width: 680px;
+  margin: 0 auto;
 }
 
-.boxed_wrapper{
+.boxed_wrapper {
   position: relative;
   overflow-x: hidden !important;
   margin: 0 auto;
@@ -71,88 +71,95 @@ body {
   min-width: 300px;
 }
 
-
-a{
+a {
   font-style: normal;
-  text-decoration:none;
-  transition:all 500ms ease;
-  -moz-transition:all 500ms ease;
-  -webkit-transition:all 500ms ease;
-  -ms-transition:all 500ms ease;
-  -o-transition:all 500ms ease;
+  text-decoration: none;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 
-a:hover{
-  text-decoration:none;
-  outline:none;
+a:hover {
+  text-decoration: none;
+  outline: none;
 }
 
-input,button,select,textarea{
-  font-family: 'Muli', sans-serif;
+input,
+button,
+select,
+textarea {
+  font-family: "Muli", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-ul,li{
-  list-style:none;
-  padding:0px;
-  margin:0px; 
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
-input{
+input {
   transition: all 500ms ease;
 }
 
 button:focus,
 input:focus,
-textarea:focus{
+textarea:focus {
   outline: none;
   box-shadow: none;
   transition: all 500ms ease;
 }
 
-p{
+p {
   position: relative;
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #666666;
   margin: 0px;
   transition: all 500ms ease;
 }
 
-h1,h2,h3,h4,h5,h6{
-  position:relative;
-  font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   margin: 0px;
   font-style: normal;
   transition: all 500ms ease;
 }
 
-h4{
-	position: relative;
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 700;
-	transition: all 500ms ease;
+h4 {
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: all 500ms ease;
 }
 
-.bg-color-1{
-	background: #f6f6f6;
+.bg-color-1 {
+  background: #f6f6f6;
 }
 
-
-.centred{
+.centred {
   text-align: center;
 }
 
-.pull-left{
+.pull-left {
   float: left;
 }
 
-.pull-right{
+.pull-right {
   float: right;
 }
 
@@ -165,8 +172,7 @@ img.lazy-image {
   background-repeat: no-repeat;
 }
 
-
-figure{
+figure {
   margin: 0px;
 }
 
@@ -174,40 +180,38 @@ img {
   display: inline-block;
   max-width: 100%;
   height: auto;
-  transition-delay: .1s;
+  transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
-  transition-duration: .7s;
+  transition-duration: 0.7s;
   transition-property: all;
 }
 
-
 @keyframes pulse {
-    50% {
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
-    }
+  50% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
 }
 
 @-webkit-keyframes ripple {
   70% {
     -webkit-box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
-            box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
   }
   100% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
 @keyframes ripple {
   70% {
     -webkit-box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
-            box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
   }
   100% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
-
 
 /* Preloader */
 
@@ -232,7 +236,7 @@ img {
   z-index: 100;
 }
 
-.handle-preloader .animation-preloader .spinner{
+.handle-preloader .animation-preloader .spinner {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   height: 170px;
@@ -245,18 +249,18 @@ img {
   user-select: none;
 }
 
-.handle-preloader .animation-preloader .txt-loading .letters-loading:before{
+.handle-preloader .animation-preloader .txt-loading .letters-loading:before {
   animation: letters-loading 4s infinite;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  top:0;
+  top: 0;
   line-height: 70px;
   position: absolute;
 }
 
-.handle-preloader .animation-preloader .txt-loading .letters-loading{
-  font-family: 'Josefin Sans', sans-serif;
+.handle-preloader .animation-preloader .txt-loading .letters-loading {
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   letter-spacing: 15px;
   display: inline-block;
@@ -265,13 +269,48 @@ img {
   line-height: 70px;
 }
 
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {animation-delay: 0.4s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(4):before {animation-delay: 0.6s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(5):before {animation-delay: 0.8s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
-.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(6):before {
+  animation-delay: 1s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+.handle-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(8):before {
+  animation-delay: 1.4s;
+}
 .handle-preloader .loader-section {
   background-color: #ffffff;
   height: 100%;
@@ -317,18 +356,21 @@ img {
     height: 7em;
     width: 7em;
   }
-  .handle-preloader .animation-preloader .txt-loading .letters-loading {font-size: 40px; letter-spacing: 10px;}
+  .handle-preloader .animation-preloader .txt-loading .letters-loading {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
 }
 
 /** button **/
 
-.theme-btn{
+.theme-btn {
   position: relative;
   display: inline-block;
   font-size: 16px;
   line-height: 30px;
   font-weight: 700 !important;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #fff !important;
   background: transparent;
   padding: 7px 30px;
@@ -340,59 +382,59 @@ img {
   transition: all 500ms ease;
 }
 
-.theme-btn:hover{
+.theme-btn:hover {
   background-position: right center;
 }
 
-.theme-btn.style-one span{
-	position: relative;
-	display: inline-block;
-	font-size: 25px;
-	font-family: 'Josefin Sans', sans-serif;
-	background: #fff;
-	width: 22px;
-	height: 22px;
-	line-height: 22px;
-	text-align: center;
-	border-radius: 3px;
-	margin-left: 10px;
+.theme-btn.style-one span {
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  background: #fff;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 10px;
 }
 
-.theme-btn.style-two{
-	background: #fff;
-	color: #1d165c !important;
+.theme-btn.style-two {
+  background: #fff;
+  color: #1d165c !important;
 }
 
-.theme-btn.style-two:before{
-	position: absolute;
-	content: '';
-	width: 7px;
-	height: 7px;
-	left: 20px;
-	top: 20px;
-	transition: all 500ms ease;
+.theme-btn.style-two:before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  left: 20px;
+  top: 20px;
+  transition: all 500ms ease;
 }
 
-.theme-btn.style-two:hover:before{
-	background: #fff;
+.theme-btn.style-two:hover:before {
+  background: #fff;
 }
 
-.theme-btn.style-two span{
-	position: relative;
-	display: inline-block;
-	font-size: 25px;
-	color: #1d165c;
-	margin-left: 10px;
-	transition: all 500ms ease;
+.theme-btn.style-two span {
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  color: #1d165c;
+  margin-left: 10px;
+  transition: all 500ms ease;
 }
 
 .theme-btn.style-two:hover,
-.theme-btn.style-two:hover span{
-	color: #fff !important;
+.theme-btn.style-two:hover span {
+  color: #fff !important;
 }
 
 .theme-btn.style-two:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -408,102 +450,103 @@ img {
   transition-timing-function: ease-out;
 }
 
-.theme-btn.style-two:hover:after{
-	left: 0px;
-	width: 100%;
-	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+.theme-btn.style-two:hover:after {
+  left: 0px;
+  width: 100%;
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.theme-btn.style-three{
-	position: relative;
-	padding: 7px 16px 7px 35px;
+.theme-btn.style-three {
+  position: relative;
+  padding: 7px 16px 7px 35px;
 }
 
-.theme-btn.style-three span{
-	font-size: 25px;
-	margin-left: 7px;
+.theme-btn.style-three span {
+  font-size: 25px;
+  margin-left: 7px;
 }
 
-.theme-btn.style-three:hover{
-	color: #fff !important;
+.theme-btn.style-three:hover {
+  color: #fff !important;
 }
 
-.theme-btn.style-three:before{
-	position: absolute;
-	content: '';
-	width: 0%;
-	height: 100%;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
-	transition: all 500ms ease;
-}
-
-.theme-btn.style-three:hover:before{
-	width: 100%;
-	left: 0px;
-}
-
-.btn-style-four{
-	position: relative;
-	display: inline-block;
-	font-size: 16px;
-	font-weight: 700;
-	font-family: 'Josefin Sans', Sans-serif;
-	color: #fff;
-	padding-left: 17px;
-}
-
-.btn-style-four span{
-	font-size: 25px;
-	margin-left: 7px;
-}
-
-.btn-style-four:before{
-	position: absolute;
-	content: '';
-	width: 7px;
-	height: 7px;
-	left: 0px;
-	top: 10px;
-	border-radius: 50%;
+.theme-btn.style-three:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
   transition: all 500ms ease;
 }
 
-.theme-btn.style-five{
-	padding: 14px 57px;
-	border-radius: 10px;
+.theme-btn.style-three:hover:before {
+  width: 100%;
+  left: 0px;
 }
 
-.theme-btn.style-five i{
-	font-weight: 400;
-	margin-right: 8px;
-	font-size: 14px;
+.btn-style-four {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Josefin Sans", Sans-serif;
+  /* color: #fff; */
+  padding-left: 17px;
 }
 
-.theme-btn.style-six{
+.btn-style-four span {
+  font-size: 25px;
+  margin-left: 7px;
+  /* margin-top: 10px !important; */
+}
+
+.btn-style-four:before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  left: 0px;
+  top: 10px;
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.theme-btn.style-five {
+  padding: 14px 57px;
+  border-radius: 10px;
+}
+
+.theme-btn.style-five i {
+  font-weight: 400;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.theme-btn.style-six {
   border-radius: 30px;
   padding: 7px 28px;
 }
 
-.theme-btn.style-seven{
+.theme-btn.style-seven {
   border-radius: 30px;
   padding: 11px 26px;
 }
 
-.theme-btn.style-seven i{
+.theme-btn.style-seven i {
   font-size: 14px;
   font-weight: 400;
   margin-right: 10px;
 }
 
-.btn-style-eight{
+.btn-style-eight {
   position: relative;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #1d165c;
   text-align: center;
   padding: 14px 39px;
@@ -511,9 +554,9 @@ img {
   z-index: 1;
 }
 
-.btn-style-eight:before{
+.btn-style-eight:before {
   position: absolute;
-  content: '';
+  content: "";
   background: #fff;
   width: calc(100% - 2px);
   height: calc(100% - 2px);
@@ -524,40 +567,39 @@ img {
   transition: all 500ms ease;
 }
 
-.btn-style-eight:hover{
+.btn-style-eight:hover {
   color: #fff;
 }
 
-.btn-style-eight:hover:before{
+.btn-style-eight:hover:before {
   opacity: 0;
 }
 
-.theme-btn.style-nine{
+.theme-btn.style-nine {
   border-radius: 30px;
   padding: 12px 47px;
 }
 
-.theme-btn.style-ten{
+.theme-btn.style-ten {
   border-radius: 30px;
   padding: 12px 45px;
 }
 
-
-.pagination{
+.pagination {
   position: relative;
   display: block;
 }
 
-.pagination li{
+.pagination li {
   display: inline-block;
   margin: 0px 6px;
 }
 
-.pagination li a{
+.pagination li a {
   position: relative;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   height: 46px;
   width: 46px;
   line-height: 50px;
@@ -571,12 +613,12 @@ img {
 }
 
 .pagination li:first-child a,
-.pagination li:last-child a{
+.pagination li:last-child a {
   width: 96px;
 }
 
 .pagination li a:hover,
-.pagination li a.active{
+.pagination li a.active {
   color: #fff;
 }
 
@@ -598,88 +640,85 @@ img {
   border-radius: 5px;
 }
 
-.scroll-top:hover{
-
+.scroll-top:hover {
 }
 
 .scroll-top.open {
   bottom: 30px;
 }
 
-.scroll-top span{
+.scroll-top span {
   color: #bdbdbe;
   transition: all 500ms ease;
 }
 
-.scroll-top:hover span{
-	color: #fff;
+.scroll-top:hover span {
+  color: #fff;
 }
 
-.sec-pad{
+.sec-pad {
   padding: 130px 0px !important;
 }
 
-.sec-pad-2{
+.sec-pad-2 {
   padding: 100px 0px !important;
 }
 
-
 /* sec-title */
 
-.sec-title{
-	position: relative;
-	margin-bottom: 20px;
+.sec-title {
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.sec-title.text-center{
-	text-align: center;
+.sec-title.text-center {
+  text-align: center;
 }
 
-.sec-title.text-left{
-	text-align: left;
+.sec-title.text-left {
+  text-align: left;
 }
 
-.sec-title p{
-	position: relative;
-	font-size: 13px;
-	line-height: 24px;
-	font-family: 'Muli', sans-serif;
-	font-weight: 600;
-	color: #666666;
-	text-transform: uppercase;
-	margin-bottom: 18px;
+.sec-title p {
+  position: relative;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  color: #666666;
+  text-transform: uppercase;
+  margin-bottom: 18px;
 }
 
-.sec-title h2{
-	position: relative;
-	font-size: 36px;
-	line-height: 46px;
-	font-weight: 700;
-	padding-bottom: 16px;
-	margin: 0px;
+.sec-title h2 {
+  position: relative;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  margin: 0px;
 }
 
-.sec-title.style-two h2{
-	color: #040535;
+.sec-title.style-two h2 {
+  color: #040535;
 }
 
 .sec-title.light p,
-.sec-title.light h2{
-	color: #fff;
+.sec-title.light h2 {
+  color: #fff;
 }
 
-.sec-title .decor{
-	position: relative;
-	width: 57px;
-	height: 9px;
-	background-repeat: no-repeat;
-	margin: 0 auto;
+.sec-title .decor {
+  position: relative;
+  width: 57px;
+  height: 9px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
-.sec-title.text-left .decor{
-	margin: 0px;
+.sec-title.text-left .decor {
+  margin: 0px;
 }
-
 
 .float-bob-y {
   animation-name: float-bob-y;
@@ -704,7 +743,7 @@ img {
   -o-animation-timing-function: linear;
 }
 
-.float-bob-x{
+.float-bob-x {
   animation-name: float-bob-x;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -727,7 +766,7 @@ img {
   -o-animation-timing-function: linear;
 }
 
-.float-bob-x-2{
+.float-bob-x-2 {
   animation-name: float-bob-x;
   animation-duration: 25s;
   animation-iteration-count: infinite;
@@ -796,7 +835,6 @@ img {
   -o-animation-timing-function: linear;
 }
 
-
 /** anim-icon **/
 
 .anim-icon {
@@ -810,671 +848,724 @@ img {
   pointer-events: none;
 }
 
-.anim-icon .icon{
+.anim-icon .icon {
   position: absolute;
 }
 
-.anim-icon .icon-1{
+.anim-icon .icon-1 {
   width: 130px;
   height: 130px;
   left: 60px;
   top: 50%;
-  -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-2{
+.anim-icon .icon-2 {
   width: 110px;
   height: 110px;
   left: 80px;
   top: 40%;
-  -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-3{
+.anim-icon .icon-3 {
   width: 60px;
   height: 60px;
   left: 200px;
   top: 30%;
-  -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-4{
+.anim-icon .icon-4 {
   width: 130px;
   height: 130px;
   right: 60px;
   top: 50%;
-  -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-5{
+.anim-icon .icon-5 {
   width: 110px;
   height: 110px;
   right: 90px;
   top: 40%;
-  -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-6{
+.anim-icon .icon-6 {
   width: 60px;
   height: 60px;
   right: 200px;
   top: 30%;
-  -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-7{
+.anim-icon .icon-7 {
   width: 130px;
   height: 107px;
   right: 80px;
   top: 10%;
-  -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-8{
+.anim-icon .icon-8 {
   width: 70px;
   height: 58px;
   right: 220px;
   top: 0%;
-  -webkit-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-9{
+.anim-icon .icon-9 {
   top: 20%;
-  -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-10{
+.anim-icon .icon-10 {
   top: 30%;
-  -webkit-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-11{
+.anim-icon .icon-11 {
   top: 40%;
-  -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-12{
+.anim-icon .icon-12 {
   top: 30%;
-  -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 18s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-13{
+.anim-icon .icon-13 {
   top: 10%;
-  -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-14{
+.anim-icon .icon-14 {
   top: 0%;
-  -webkit-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-15{
+.anim-icon .icon-15 {
   top: 20%;
-  -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
-  animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 19s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
 }
 
-.anim-icon .icon-16{
+.anim-icon .icon-16 {
   top: 30%;
-  -webkit-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  -moz-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
-  animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 16s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
 }
 
-
-@keyframes slide{
-  from { background-position: 0 0; }
-    to { background-position: 1920px 0; }
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
 }
 
-@-webkit-keyframes slide{
-  from { background-position: 0 0; }
-    to { background-position: 1920px 0; }
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
 }
-
-
 
 /* margin */
 
 .mt-5 {
-	margin-top: 5px !important;
+  margin-top: 5px !important;
 }
 
 .mt-10 {
-	margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 
 .mt-15 {
-	margin-top: 15px !important;
+  margin-top: 15px !important;
 }
 
 .mt-20 {
-	margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 
 .mt-25 {
-	margin-top: 25px !important;
+  margin-top: 25px !important;
 }
 
 .mt-30 {
-	margin-top: 30px !important;
+  margin-top: 30px !important;
 }
 
 .mt-35 {
-	margin-top: 35px !important;
+  margin-top: 35px !important;
 }
 
 .mt-40 {
-	margin-top: 40px !important;
+  margin-top: 40px !important;
 }
 
 .mt-45 {
-	margin-top: 45px !important;
+  margin-top: 45px !important;
 }
 
 .mt-50 {
-	margin-top: 50px !important;
+  margin-top: 50px !important;
 }
 
 .mt-55 {
-	margin-top: 55px !important;
+  margin-top: 55px !important;
 }
 
 .mt-60 {
-	margin-top: 60px !important;
+  margin-top: 60px !important;
 }
 
 .mt-65 {
-	margin-top: 65px !important;
+  margin-top: 65px !important;
 }
 
 .mt-70 {
-	margin-top: 70px !important;
+  margin-top: 70px !important;
 }
 
 .mt-75 {
-	margin-top: 75px !important;
+  margin-top: 75px !important;
 }
 
 .mt-80 {
-	margin-top: 80px !important;
+  margin-top: 80px !important;
 }
 
 .mb-5 {
-	margin-bottom: 5px !important;
+  margin-bottom: 5px !important;
 }
 
 .mb-10 {
-	margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .mb-15 {
-	margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
 
 .mb-20 {
-	margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 .mb-25 {
-	margin-bottom: 25px !important;
+  margin-bottom: 25px !important;
 }
 
 .mb-30 {
-	margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 }
 
 .mb-35 {
-	margin-bottom: 35px !important;
+  margin-bottom: 35px !important;
 }
 
 .mb-40 {
-	margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 .mb-45 {
-	margin-bottom: 45px !important;
+  margin-bottom: 45px !important;
 }
 
 .mb-50 {
-	margin-bottom: 50px !important;
+  margin-bottom: 50px !important;
 }
 
 .mb-55 {
-	margin-bottom: 55px !important;
+  margin-bottom: 55px !important;
 }
 
 .mb-60 {
-	margin-bottom: 60px !important;
+  margin-bottom: 60px !important;
 }
 
 .mb-65 {
-	margin-bottom: 65px !important;
+  margin-bottom: 65px !important;
 }
 
 .mb-70 {
-	margin-bottom: 70px !important;
+  margin-bottom: 70px !important;
 }
 
 .mb-75 {
-	margin-bottom: 75px !important;
+  margin-bottom: 75px !important;
 }
 
 .mb-80 {
-	margin-bottom: 80px !important;
+  margin-bottom: 80px !important;
 }
 
 .ml-5 {
-	margin-left: 5px !important;
+  margin-left: 5px !important;
 }
 
 .ml-10 {
-	margin-left: 10px !important;
+  margin-left: 10px !important;
 }
 
 .ml-15 {
-	margin-left: 15px !important;
+  margin-left: 15px !important;
 }
 
 .ml-20 {
-	margin-left: 20px !important;
+  margin-left: 20px !important;
 }
 
 .ml-25 {
-	margin-left: 25px !important;
+  margin-left: 25px !important;
 }
 
 .ml-30 {
-	margin-left: 30px !important;
+  margin-left: 30px !important;
 }
 
 .ml-35 {
-	margin-left: 35px !important;
+  margin-left: 35px !important;
 }
 
 .ml-40 {
-	margin-left: 40px !important;
+  margin-left: 40px !important;
 }
 
 .ml-45 {
-	margin-left: 45px !important;
+  margin-left: 45px !important;
 }
 
 .ml-50 {
-	margin-left: 50px !important;
+  margin-left: 50px !important;
 }
 
 .ml-55 {
-	margin-left: 55px !important;
+  margin-left: 55px !important;
 }
 
 .ml-60 {
-	margin-left: 60px !important;
+  margin-left: 60px !important;
 }
 
 .ml-65 {
-	margin-left: 65px !important;
+  margin-left: 65px !important;
 }
 
 .ml-70 {
-	margin-left: 70px !important;
+  margin-left: 70px !important;
 }
 
 .ml-75 {
-	margin-left: 75px !important;
+  margin-left: 75px !important;
 }
 
 .ml-80 {
-	margin-left: 80px !important;
+  margin-left: 80px !important;
 }
 
 .mr-5 {
-	margin-right: 5px !important;
+  margin-right: 5px !important;
 }
 
 .mr-10 {
-	margin-right: 10px !important;
+  margin-right: 10px !important;
 }
 
 .mr-15 {
-	margin-right: 15px !important;
+  margin-right: 15px !important;
 }
 
 .mr-20 {
-	margin-right: 20px !important;
+  margin-right: 20px !important;
 }
 
 .mr-25 {
-	margin-right: 25px !important;
+  margin-right: 25px !important;
 }
 
 .mr-30 {
-	margin-right: 30px !important;
+  margin-right: 30px !important;
 }
 
 .mr-35 {
-	margin-right: 35px !important;
+  margin-right: 35px !important;
 }
 
 .mr-40 {
-	margin-right: 40px !important;
+  margin-right: 40px !important;
 }
 
 .mr-45 {
-	margin-right: 45px !important;
+  margin-right: 45px !important;
 }
 
 .mr-50 {
-	margin-right: 50px !important;
+  margin-right: 50px !important;
 }
 
 .mr-55 {
-	margin-right: 55px !important;
+  margin-right: 55px !important;
 }
 
 .mr-60 {
-	margin-right: 60px !important;
+  margin-right: 60px !important;
 }
 
 .mr-65 {
-	margin-right: 65px !important;
+  margin-right: 65px !important;
 }
 
 .mr-70 {
-	margin-right: 70px !important;
+  margin-right: 70px !important;
 }
 
 .mr-75 {
-	margin-right: 75px !important;
+  margin-right: 75px !important;
 }
 
 .mr-80 {
-	margin-right: 80px !important;
+  margin-right: 80px !important;
 }
 
 /* padding */
 
 .pt-5 {
-	padding-top: 5px !important;
+  padding-top: 5px !important;
 }
 
 .pt-10 {
-	padding-top: 10px !important;
+  padding-top: 10px !important;
 }
 
 .pt-15 {
-	padding-top: 15px !important;
+  padding-top: 15px !important;
 }
 
 .pt-20 {
-	padding-top: 20px !important;
+  padding-top: 20px !important;
 }
 
 .pt-25 {
-	padding-top: 25px !important;
+  padding-top: 25px !important;
 }
 
 .pt-30 {
-	padding-top: 30px !important;
+  padding-top: 30px !important;
 }
 
 .pt-35 {
-	padding-top: 35px !important;
+  padding-top: 35px !important;
 }
 
 .pt-40 {
-	padding-top: 40px !important;
+  padding-top: 40px !important;
 }
 
 .pt-45 {
-	padding-top: 45px !important;
+  padding-top: 45px !important;
 }
 
 .pt-50 {
-	padding-top: 50px !important;
+  padding-top: 50px !important;
 }
 
 .pt-55 {
-	padding-top: 55px !important;
+  padding-top: 55px !important;
 }
 
 .pt-60 {
-	padding-top: 60px !important;
+  padding-top: 60px !important;
 }
 
 .pt-65 {
-	padding-top: 65px !important;
+  padding-top: 65px !important;
 }
 
 .pt-70 {
-	padding-top: 70px !important;
+  padding-top: 70px !important;
 }
 
 .pt-75 {
-	padding-top: 75px !important;
+  padding-top: 75px !important;
 }
 
 .pt-80 {
-	padding-top: 80px !important;
+  padding-top: 80px !important;
 }
 
 .pb-5 {
-	padding-bottom: 5px !important;
+  padding-bottom: 5px !important;
 }
 
 .pb-10 {
-	padding-bottom: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 .pb-15 {
-	padding-bottom: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 .pb-20 {
-	padding-bottom: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .pb-25 {
-	padding-bottom: 25px !important;
+  padding-bottom: 25px !important;
 }
 
 .pb-30 {
-	padding-bottom: 30px !important;
+  padding-bottom: 30px !important;
 }
 
 .pb-35 {
-	padding-bottom: 35px !important;
+  padding-bottom: 35px !important;
 }
 
 .pb-40 {
-	padding-bottom: 40px !important;
+  padding-bottom: 40px !important;
 }
 
 .pb-45 {
-	padding-bottom: 45px !important;
+  padding-bottom: 45px !important;
 }
 
 .pb-50 {
-	padding-bottom: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .pb-55 {
-	padding-bottom: 55px !important;
+  padding-bottom: 55px !important;
 }
 
 .pb-60 {
-	padding-bottom: 60px !important;
+  padding-bottom: 60px !important;
 }
 
 .pb-65 {
-	padding-bottom: 65px !important;
+  padding-bottom: 65px !important;
 }
 
 .pb-70 {
-	padding-bottom: 70px !important;
+  padding-bottom: 70px !important;
 }
 
 .pb-75 {
-	padding-bottom: 75px !important;
+  padding-bottom: 75px !important;
 }
 
 .pb-80 {
-	padding-bottom: 80px !important;
+  padding-bottom: 80px !important;
 }
 
 .pl-5 {
-	padding-left: 5px !important;
+  padding-left: 5px !important;
 }
 
 .pl-10 {
-	padding-left: 10px !important;
+  padding-left: 10px !important;
 }
 
 .pl-15 {
-	padding-left: 15px !important;
+  padding-left: 15px !important;
 }
 
 .pl-20 {
-	padding-left: 20px !important;
+  padding-left: 20px !important;
 }
 
 .pl-25 {
-	padding-left: 25px !important;
+  padding-left: 25px !important;
 }
 
 .pl-30 {
-	padding-left: 30px !important;
+  padding-left: 30px !important;
 }
 
 .pl-35 {
-	padding-left: 35px !important;
+  padding-left: 35px !important;
 }
 
 .pl-40 {
-	padding-left: 40px !important;
+  padding-left: 40px !important;
 }
 
 .pl-45 {
-	padding-left: 45px !important;
+  padding-left: 45px !important;
 }
 
 .pl-50 {
-	padding-left: 50px !important;
+  padding-left: 50px !important;
 }
 
 .pl-55 {
-	padding-left: 55px !important;
+  padding-left: 55px !important;
 }
 
 .pl-60 {
-	padding-left: 60px !important;
+  padding-left: 60px !important;
 }
 
 .pl-65 {
-	padding-left: 65px !important;
+  padding-left: 65px !important;
 }
 
 .pl-70 {
-	padding-left: 70px !important;
+  padding-left: 70px !important;
 }
 
 .pl-75 {
-	padding-left: 75px !important;
+  padding-left: 75px !important;
 }
 
 .pl-80 {
-	padding-left: 80px !important;
+  padding-left: 80px !important;
 }
 
 .pr-5 {
-	padding-right: 5px !important;
+  padding-right: 5px !important;
 }
 
 .pr-10 {
-	padding-right: 10px !important;
+  padding-right: 10px !important;
 }
 
 .pr-15 {
-	padding-right: 15px !important;
+  padding-right: 15px !important;
 }
 
 .pr-20 {
-	padding-right: 20px !important;
+  padding-right: 20px !important;
 }
 
 .pr-25 {
-	padding-right: 25px !important;
+  padding-right: 25px !important;
 }
 
 .pr-30 {
-	padding-right: 30px !important;
+  padding-right: 30px !important;
 }
 
 .pr-35 {
-	padding-right: 35px !important;
+  padding-right: 35px !important;
 }
 
 .pr-40 {
-	padding-right: 40px !important;
+  padding-right: 40px !important;
 }
 
 .pr-45 {
-	padding-right: 45px !important;
+  padding-right: 45px !important;
 }
 
 .pr-50 {
-	padding-right: 50px !important;
+  padding-right: 50px !important;
 }
 
 .pr-55 {
-	padding-right: 55px !important;
+  padding-right: 55px !important;
 }
 
 .pr-60 {
-	padding-right: 60px !important;
+  padding-right: 60px !important;
 }
 
 .pr-65 {
-	padding-right: 65px !important;
+  padding-right: 65px !important;
 }
 
 .pr-70 {
-	padding-right: 70px !important;
+  padding-right: 70px !important;
 }
 
 .pr-75 {
-	padding-right: 75px !important;
+  padding-right: 75px !important;
 }
 
 .pr-80 {
-	padding-right: 80px !important;
+  padding-right: 80px !important;
 }
