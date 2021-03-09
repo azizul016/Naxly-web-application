@@ -1,5 +1,6 @@
 import React from "react";
 import NavComponent from "./NavComponent";
+import logo from "../../images/logo-6.png"
 
 function MainHeader() {
   return (
@@ -10,7 +11,7 @@ function MainHeader() {
             <div className='logo-box style-two'>
               <figure className='logo'>
                 <a href='index.html'>
-                  <img src='assets/images/logo-6.png' alt='' />
+                  <img src={logo} alt='' />
                 </a>
               </figure>
             </div>
